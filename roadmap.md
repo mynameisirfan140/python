@@ -1,0 +1,15 @@
+# Tasks
+- [x] Isolate consecutive terminal answers, reject stale worker events, and verify running again after Stop.
+- [x] Remove optional source branding and telemetry, replace the favicon, and hide the published badge.
+- [x] Check app health and identify remaining managed tooling and hosted portrait dependency.
+- [x] Configure a standalone static TanStack build and GitHub Pages workflow.
+- [x] Make Python workers, favicon, routing, and portrait resolve under a repository subpath; add path and input-bridge tests.
+- [x] Verify input and assets in the running app; document GitHub setup.
+- [ ] Verify the actual GitHub Pages deployment: user must sync the repository and enable Settings → Pages → GitHub Actions.
+- [x] Replace EOF-on-input with interactive terminal prompts and test repeated input and cancellation.
+- [x] Verify math, NumPy, pandas, scikit-learn, and standard Python functions.
+- [x] Add Instagram and YouTube profile links; improve terminal layout and readability.
+- [x] Build the reference-inspired Python playground and browser-saved sessions.
+- [x] Implement real browser Python execution, attachments, copy, .py save, and clear.
+- [x] Add the exact developer biography and supplied portrait.
+- [x] Verify Python runs, file tools, persistence, and mobile layout.
