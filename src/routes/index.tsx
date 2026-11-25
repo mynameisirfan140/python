@@ -200,7 +200,7 @@ function Index() {
     setTimeout(() => URL.revokeObjectURL(url), 1000); setNotice(`${pythonFilename(file.name)} saved`);
   }
 
-  return <main className="playground">
+  return <main className={`playground ${appFullscreen ? "app-fullscreen" : ""}`}>
     <header className="app-header">
       <div className="brand"><Zap className="brand-mark" aria-hidden="true" /><span className="brand-name">Tekz<span>byte</span></span><div className="brand-divider" /><div className="brand-motto">Compile <b>·</b> Run <b>·</b> Learn <b>·</b> Build</div></div>
       <nav className="header-nav" aria-label="Workspace navigation">

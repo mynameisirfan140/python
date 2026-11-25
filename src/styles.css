@@ -350,3 +350,5 @@
   .examples-dialog { width: calc(100% - 24px); }
 }
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { animation: none !important; transition: none !important; } }
+
+.app-fullscreen .brand-motto, .app-fullscreen .brand-divider, .app-fullscreen .header-nav, .app-fullscreen .page-heading { display: none; }
